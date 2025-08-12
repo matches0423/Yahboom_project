@@ -1,35 +1,30 @@
+# notebook
 .ipynb_checkpoints/
 
-*.7z
-*.DS_Store
-*.PKG-INFO
-*.bmp
-*.checkpoint
-*.config
-*.dat
-*.data-00000-of-00001
-*.egg
-*.gitignore
-*.gz
-*.html
-*.idx1-ubyte
-*.idx3-ubyte
-*.index
-*.jpg
-*.js
-*.md
-*.meta
-*.model
-*.mp4
-*.pb
-*.pbtxt
-*.png
-*.proto
+# cache
 *.pyc
-*.readme
-*.sh
+
+# MAC OS
+.DS_Store
+
+# image
+*.bmp
+*.jpg
+*.mp4
+*.png
+
+# checkpoint
+checkpoint
+*.model
+*.ckpt.*
+*.pb
+
+# binary
 *.so
-*.ttc
-*.ttf
-*.txt
-*.xml
+
+# package
+*.egg-info/
+*.egg
+
+# data
+*.7z
